@@ -1,0 +1,56 @@
+{
+  "varna": {
+    "description": "Varna koota compares the spiritual/social compatibility. Max: 1 point.",
+    "convention": "Rashi-based varna classification",
+    "scoring": "1 if groom's varna is equal or higher than bride's, 0 otherwise",
+    "rashiVarna": {
+      "Aries": "Kshatriya",
+      "Taurus": "Vaishya",
+      "Gemini": "Shudra",
+      "Cancer": "Brahmin",
+      "Leo": "Kshatriya",
+      "Virgo": "Vaishya",
+      "Libra": "Shudra",
+      "Scorpio": "Brahmin",
+      "Sagittarius": "Kshatriya",
+      "Capricorn": "Vaishya",
+      "Aquarius": "Shudra",
+      "Pisces": "Brahmin"
+    },
+    "varnaOrder": [
+      "Brahmin",
+      "Kshatriya",
+      "Vaishya",
+      "Shudra"
+    ],
+    "text": "Varna assesses fundamental nature compatibility. Brahmin natures are spiritual, Kshatriya are warriors/leaders, Vaishya are merchants, Shudra are service-oriented. This koota carries 1 point."
+  },
+  "vashya": {
+    "description": "Vashya assesses mutual attraction and influence. Max: 2 points.",
+    "text": "Vashya koota carries 2 points and assesses control and mutual attraction between the partners based on Moon signs."
+  },
+  "tara": {
+    "description": "Tara relates to health and longevity based on nakshatras. Max: 3 points.",
+    "text": "Tara koota carries 3 points and is calculated by the distance between the birth nakshatras of the partners."
+  },
+  "yoni": {
+    "description": "Yoni checks physical and sexual compatibility. Max: 4 points.",
+    "text": "Yoni koota carries 4 points and assigns an animal to each nakshatra to measure sexual and biological compatibility."
+  },
+  "graha_maitri": {
+    "description": "Graha Maitri measures mental compatibility and friendship. Max: 5 points.",
+    "text": "Graha Maitri evaluates planetary friendship between the Moon sign lords of both partners, carrying 5 points."
+  },
+  "gana": {
+    "description": "Gana looks at temperamental compatibility. Max: 6 points.",
+    "text": "Gana koota carries 6 points. Nakshatras are divided into Deva, Manushya, and Rakshasa ganas, determining temperament."
+  },
+  "bhakoot": {
+    "description": "Bhakoot or Rashi koota measures emotional and family welfare. Max: 7 points.",
+    "text": "Bhakoot koota evaluates the relationship between the moon signs, checking for inauspicious intervals like 6/8, carrying 7 points."
+  },
+  "nadi": {
+    "description": "Nadi evaluates genetic/physiological compatibility. Max: 8 points.",
+    "text": "Nadi koota is the most crucial, carrying 8 points. Same-nadi combinations are considered highly problematic for health and progeny."
+  }
+}

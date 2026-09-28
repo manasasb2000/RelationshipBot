@@ -1,0 +1,497 @@
+[
+  {
+    "index": 0,
+    "name": "Ashwini",
+    "lord": "Ketu",
+    "gana": "Deva",
+    "yoni": "Ashwa",
+    "nadi": "Vata",
+    "rashiIndex": 0,
+    "pada": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "startDeg": 0,
+    "endDeg": 13.333,
+    "text": "Ashwini is the 1th nakshatra (spanning 0.000° to 13.333° in the zodiac). Lord: Ketu. Gana: Deva. Yoni: Ashwa. Nadi: Vata. People born under Ashwini exhibit traits corresponding to its ruling planet Ketu and animal symbol Ashwa. It is a Deva gana nakshatra.",
+    "license": "original"
+  },
+  {
+    "index": 1,
+    "name": "Bharani",
+    "lord": "Venus",
+    "gana": "Manushya",
+    "yoni": "Gaja",
+    "nadi": "Pitta",
+    "rashiIndex": 0,
+    "pada": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "startDeg": 13.333,
+    "endDeg": 26.667,
+    "text": "Bharani is the 2th nakshatra (spanning 13.333° to 26.667° in the zodiac). Lord: Venus. Gana: Manushya. Yoni: Gaja. Nadi: Pitta. People born under Bharani exhibit traits corresponding to its ruling planet Venus and animal symbol Gaja. It is a Manushya gana nakshatra.",
+    "license": "original"
+  },
+  {
+    "index": 2,
+    "name": "Krittika",
+    "lord": "Sun",
+    "gana": "Rakshasa",
+    "yoni": "Mesha",
+    "nadi": "Kapha",
+    "rashiIndex": 0,
+    "pada": [
+      1
+    ],
+    "startDeg": 26.667,
+    "endDeg": 40,
+    "text": "Krittika is the 3th nakshatra (spanning 26.667° to 40.000° in the zodiac). Lord: Sun. Gana: Rakshasa. Yoni: Mesha. Nadi: Kapha. People born under Krittika exhibit traits corresponding to its ruling planet Sun and animal symbol Mesha. It is a Rakshasa gana nakshatra.",
+    "license": "original"
+  },
+  {
+    "index": 3,
+    "name": "Rohini",
+    "lord": "Moon",
+    "gana": "Manushya",
+    "yoni": "Sarpa",
+    "nadi": "Kapha",
+    "rashiIndex": 1,
+    "pada": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "startDeg": 40,
+    "endDeg": 53.333,
+    "text": "Rohini is the 4th nakshatra (spanning 40.000° to 53.333° in the zodiac). Lord: Moon. Gana: Manushya. Yoni: Sarpa. Nadi: Kapha. People born under Rohini exhibit traits corresponding to its ruling planet Moon and animal symbol Sarpa. It is a Manushya gana nakshatra.",
+    "license": "original"
+  },
+  {
+    "index": 4,
+    "name": "Mrigashira",
+    "lord": "Mars",
+    "gana": "Deva",
+    "yoni": "Sarpa",
+    "nadi": "Pitta",
+    "rashiIndex": 1,
+    "pada": [
+      1,
+      2
+    ],
+    "startDeg": 53.333,
+    "endDeg": 66.667,
+    "text": "Mrigashira is the 5th nakshatra (spanning 53.333° to 66.667° in the zodiac). Lord: Mars. Gana: Deva. Yoni: Sarpa. Nadi: Pitta. People born under Mrigashira exhibit traits corresponding to its ruling planet Mars and animal symbol Sarpa. It is a Deva gana nakshatra.",
+    "license": "original"
+  },
+  {
+    "index": 5,
+    "name": "Ardra",
+    "lord": "Rahu",
+    "gana": "Manushya",
+    "yoni": "Shvan",
+    "nadi": "Vata",
+    "rashiIndex": 2,
+    "pada": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "startDeg": 66.667,
+    "endDeg": 80,
+    "text": "Ardra is the 6th nakshatra (spanning 66.667° to 80.000° in the zodiac). Lord: Rahu. Gana: Manushya. Yoni: Shvan. Nadi: Vata. People born under Ardra exhibit traits corresponding to its ruling planet Rahu and animal symbol Shvan. It is a Manushya gana nakshatra.",
+    "license": "original"
+  },
+  {
+    "index": 6,
+    "name": "Punarvasu",
+    "lord": "Jupiter",
+    "gana": "Deva",
+    "yoni": "Marjara",
+    "nadi": "Vata",
+    "rashiIndex": 2,
+    "pada": [
+      1,
+      2,
+      3
+    ],
+    "startDeg": 80,
+    "endDeg": 93.333,
+    "text": "Punarvasu is the 7th nakshatra (spanning 80.000° to 93.333° in the zodiac). Lord: Jupiter. Gana: Deva. Yoni: Marjara. Nadi: Vata. People born under Punarvasu exhibit traits corresponding to its ruling planet Jupiter and animal symbol Marjara. It is a Deva gana nakshatra.",
+    "license": "original"
+  },
+  {
+    "index": 7,
+    "name": "Pushya",
+    "lord": "Saturn",
+    "gana": "Deva",
+    "yoni": "Mesha",
+    "nadi": "Pitta",
+    "rashiIndex": 3,
+    "pada": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "startDeg": 93.333,
+    "endDeg": 106.667,
+    "text": "Pushya is the 8th nakshatra (spanning 93.333° to 106.667° in the zodiac). Lord: Saturn. Gana: Deva. Yoni: Mesha. Nadi: Pitta. People born under Pushya exhibit traits corresponding to its ruling planet Saturn and animal symbol Mesha. It is a Deva gana nakshatra.",
+    "license": "original"
+  },
+  {
+    "index": 8,
+    "name": "Ashlesha",
+    "lord": "Mercury",
+    "gana": "Rakshasa",
+    "yoni": "Marjara",
+    "nadi": "Kapha",
+    "rashiIndex": 3,
+    "pada": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "startDeg": 106.667,
+    "endDeg": 120,
+    "text": "Ashlesha is the 9th nakshatra (spanning 106.667° to 120.000° in the zodiac). Lord: Mercury. Gana: Rakshasa. Yoni: Marjara. Nadi: Kapha. People born under Ashlesha exhibit traits corresponding to its ruling planet Mercury and animal symbol Marjara. It is a Rakshasa gana nakshatra.",
+    "license": "original"
+  },
+  {
+    "index": 9,
+    "name": "Magha",
+    "lord": "Ketu",
+    "gana": "Rakshasa",
+    "yoni": "Mushaka",
+    "nadi": "Kapha",
+    "rashiIndex": 4,
+    "pada": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "startDeg": 120,
+    "endDeg": 133.333,
+    "text": "Magha is the 10th nakshatra (spanning 120.000° to 133.333° in the zodiac). Lord: Ketu. Gana: Rakshasa. Yoni: Mushaka. Nadi: Kapha. People born under Magha exhibit traits corresponding to its ruling planet Ketu and animal symbol Mushaka. It is a Rakshasa gana nakshatra.",
+    "license": "original"
+  },
+  {
+    "index": 10,
+    "name": "Purva Phalguni",
+    "lord": "Venus",
+    "gana": "Manushya",
+    "yoni": "Mushaka",
+    "nadi": "Pitta",
+    "rashiIndex": 4,
+    "pada": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "startDeg": 133.333,
+    "endDeg": 146.667,
+    "text": "Purva Phalguni is the 11th nakshatra (spanning 133.333° to 146.667° in the zodiac). Lord: Venus. Gana: Manushya. Yoni: Mushaka. Nadi: Pitta. People born under Purva Phalguni exhibit traits corresponding to its ruling planet Venus and animal symbol Mushaka. It is a Manushya gana nakshatra.",
+    "license": "original"
+  },
+  {
+    "index": 11,
+    "name": "Uttara Phalguni",
+    "lord": "Sun",
+    "gana": "Manushya",
+    "yoni": "Gau",
+    "nadi": "Vata",
+    "rashiIndex": 4,
+    "pada": [
+      1
+    ],
+    "startDeg": 146.667,
+    "endDeg": 160,
+    "text": "Uttara Phalguni is the 12th nakshatra (spanning 146.667° to 160.000° in the zodiac). Lord: Sun. Gana: Manushya. Yoni: Gau. Nadi: Vata. People born under Uttara Phalguni exhibit traits corresponding to its ruling planet Sun and animal symbol Gau. It is a Manushya gana nakshatra.",
+    "license": "original"
+  },
+  {
+    "index": 12,
+    "name": "Hasta",
+    "lord": "Moon",
+    "gana": "Deva",
+    "yoni": "Mahisha",
+    "nadi": "Vata",
+    "rashiIndex": 5,
+    "pada": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "startDeg": 160,
+    "endDeg": 173.333,
+    "text": "Hasta is the 13th nakshatra (spanning 160.000° to 173.333° in the zodiac). Lord: Moon. Gana: Deva. Yoni: Mahisha. Nadi: Vata. People born under Hasta exhibit traits corresponding to its ruling planet Moon and animal symbol Mahisha. It is a Deva gana nakshatra.",
+    "license": "original"
+  },
+  {
+    "index": 13,
+    "name": "Chitra",
+    "lord": "Mars",
+    "gana": "Rakshasa",
+    "yoni": "Vyaghra",
+    "nadi": "Pitta",
+    "rashiIndex": 5,
+    "pada": [
+      1,
+      2
+    ],
+    "startDeg": 173.333,
+    "endDeg": 186.667,
+    "text": "Chitra is the 14th nakshatra (spanning 173.333° to 186.667° in the zodiac). Lord: Mars. Gana: Rakshasa. Yoni: Vyaghra. Nadi: Pitta. People born under Chitra exhibit traits corresponding to its ruling planet Mars and animal symbol Vyaghra. It is a Rakshasa gana nakshatra.",
+    "license": "original"
+  },
+  {
+    "index": 14,
+    "name": "Swati",
+    "lord": "Rahu",
+    "gana": "Deva",
+    "yoni": "Mahisha",
+    "nadi": "Kapha",
+    "rashiIndex": 6,
+    "pada": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "startDeg": 186.667,
+    "endDeg": 200,
+    "text": "Swati is the 15th nakshatra (spanning 186.667° to 200.000° in the zodiac). Lord: Rahu. Gana: Deva. Yoni: Mahisha. Nadi: Kapha. People born under Swati exhibit traits corresponding to its ruling planet Rahu and animal symbol Mahisha. It is a Deva gana nakshatra.",
+    "license": "original"
+  },
+  {
+    "index": 15,
+    "name": "Vishakha",
+    "lord": "Jupiter",
+    "gana": "Rakshasa",
+    "yoni": "Vyaghra",
+    "nadi": "Kapha",
+    "rashiIndex": 6,
+    "pada": [
+      1,
+      2,
+      3
+    ],
+    "startDeg": 200,
+    "endDeg": 213.333,
+    "text": "Vishakha is the 16th nakshatra (spanning 200.000° to 213.333° in the zodiac). Lord: Jupiter. Gana: Rakshasa. Yoni: Vyaghra. Nadi: Kapha. People born under Vishakha exhibit traits corresponding to its ruling planet Jupiter and animal symbol Vyaghra. It is a Rakshasa gana nakshatra.",
+    "license": "original"
+  },
+  {
+    "index": 16,
+    "name": "Anuradha",
+    "lord": "Saturn",
+    "gana": "Deva",
+    "yoni": "Mriga",
+    "nadi": "Pitta",
+    "rashiIndex": 7,
+    "pada": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "startDeg": 213.333,
+    "endDeg": 226.667,
+    "text": "Anuradha is the 17th nakshatra (spanning 213.333° to 226.667° in the zodiac). Lord: Saturn. Gana: Deva. Yoni: Mriga. Nadi: Pitta. People born under Anuradha exhibit traits corresponding to its ruling planet Saturn and animal symbol Mriga. It is a Deva gana nakshatra.",
+    "license": "original"
+  },
+  {
+    "index": 17,
+    "name": "Jyeshtha",
+    "lord": "Mercury",
+    "gana": "Rakshasa",
+    "yoni": "Mriga",
+    "nadi": "Vata",
+    "rashiIndex": 7,
+    "pada": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "startDeg": 226.667,
+    "endDeg": 240,
+    "text": "Jyeshtha is the 18th nakshatra (spanning 226.667° to 240.000° in the zodiac). Lord: Mercury. Gana: Rakshasa. Yoni: Mriga. Nadi: Vata. People born under Jyeshtha exhibit traits corresponding to its ruling planet Mercury and animal symbol Mriga. It is a Rakshasa gana nakshatra.",
+    "license": "original"
+  },
+  {
+    "index": 18,
+    "name": "Mula",
+    "lord": "Ketu",
+    "gana": "Rakshasa",
+    "yoni": "Shvan",
+    "nadi": "Vata",
+    "rashiIndex": 8,
+    "pada": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "startDeg": 240,
+    "endDeg": 253.333,
+    "text": "Mula is the 19th nakshatra (spanning 240.000° to 253.333° in the zodiac). Lord: Ketu. Gana: Rakshasa. Yoni: Shvan. Nadi: Vata. People born under Mula exhibit traits corresponding to its ruling planet Ketu and animal symbol Shvan. It is a Rakshasa gana nakshatra.",
+    "license": "original"
+  },
+  {
+    "index": 19,
+    "name": "Purva Ashadha",
+    "lord": "Venus",
+    "gana": "Manushya",
+    "yoni": "Vanara",
+    "nadi": "Pitta",
+    "rashiIndex": 8,
+    "pada": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "startDeg": 253.333,
+    "endDeg": 266.667,
+    "text": "Purva Ashadha is the 20th nakshatra (spanning 253.333° to 266.667° in the zodiac). Lord: Venus. Gana: Manushya. Yoni: Vanara. Nadi: Pitta. People born under Purva Ashadha exhibit traits corresponding to its ruling planet Venus and animal symbol Vanara. It is a Manushya gana nakshatra.",
+    "license": "original"
+  },
+  {
+    "index": 20,
+    "name": "Uttara Ashadha",
+    "lord": "Sun",
+    "gana": "Manushya",
+    "yoni": "Nakula",
+    "nadi": "Kapha",
+    "rashiIndex": 8,
+    "pada": [
+      1
+    ],
+    "startDeg": 266.667,
+    "endDeg": 280,
+    "text": "Uttara Ashadha is the 21th nakshatra (spanning 266.667° to 280.000° in the zodiac). Lord: Sun. Gana: Manushya. Yoni: Nakula. Nadi: Kapha. People born under Uttara Ashadha exhibit traits corresponding to its ruling planet Sun and animal symbol Nakula. It is a Manushya gana nakshatra.",
+    "license": "original"
+  },
+  {
+    "index": 21,
+    "name": "Shravana",
+    "lord": "Moon",
+    "gana": "Deva",
+    "yoni": "Vanara",
+    "nadi": "Kapha",
+    "rashiIndex": 9,
+    "pada": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "startDeg": 280,
+    "endDeg": 293.333,
+    "text": "Shravana is the 22th nakshatra (spanning 280.000° to 293.333° in the zodiac). Lord: Moon. Gana: Deva. Yoni: Vanara. Nadi: Kapha. People born under Shravana exhibit traits corresponding to its ruling planet Moon and animal symbol Vanara. It is a Deva gana nakshatra.",
+    "license": "original"
+  },
+  {
+    "index": 22,
+    "name": "Dhanishta",
+    "lord": "Mars",
+    "gana": "Rakshasa",
+    "yoni": "Simha",
+    "nadi": "Pitta",
+    "rashiIndex": 9,
+    "pada": [
+      1,
+      2
+    ],
+    "startDeg": 293.333,
+    "endDeg": 306.667,
+    "text": "Dhanishta is the 23th nakshatra (spanning 293.333° to 306.667° in the zodiac). Lord: Mars. Gana: Rakshasa. Yoni: Simha. Nadi: Pitta. People born under Dhanishta exhibit traits corresponding to its ruling planet Mars and animal symbol Simha. It is a Rakshasa gana nakshatra.",
+    "license": "original"
+  },
+  {
+    "index": 23,
+    "name": "Shatabhisha",
+    "lord": "Rahu",
+    "gana": "Rakshasa",
+    "yoni": "Ashwa",
+    "nadi": "Vata",
+    "rashiIndex": 10,
+    "pada": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "startDeg": 306.667,
+    "endDeg": 320,
+    "text": "Shatabhisha is the 24th nakshatra (spanning 306.667° to 320.000° in the zodiac). Lord: Rahu. Gana: Rakshasa. Yoni: Ashwa. Nadi: Vata. People born under Shatabhisha exhibit traits corresponding to its ruling planet Rahu and animal symbol Ashwa. It is a Rakshasa gana nakshatra.",
+    "license": "original"
+  },
+  {
+    "index": 24,
+    "name": "Purva Bhadrapada",
+    "lord": "Jupiter",
+    "gana": "Manushya",
+    "yoni": "Simha",
+    "nadi": "Vata",
+    "rashiIndex": 10,
+    "pada": [
+      1,
+      2,
+      3
+    ],
+    "startDeg": 320,
+    "endDeg": 333.333,
+    "text": "Purva Bhadrapada is the 25th nakshatra (spanning 320.000° to 333.333° in the zodiac). Lord: Jupiter. Gana: Manushya. Yoni: Simha. Nadi: Vata. People born under Purva Bhadrapada exhibit traits corresponding to its ruling planet Jupiter and animal symbol Simha. It is a Manushya gana nakshatra.",
+    "license": "original"
+  },
+  {
+    "index": 25,
+    "name": "Uttara Bhadrapada",
+    "lord": "Saturn",
+    "gana": "Manushya",
+    "yoni": "Gau",
+    "nadi": "Pitta",
+    "rashiIndex": 11,
+    "pada": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "startDeg": 333.333,
+    "endDeg": 346.667,
+    "text": "Uttara Bhadrapada is the 26th nakshatra (spanning 333.333° to 346.667° in the zodiac). Lord: Saturn. Gana: Manushya. Yoni: Gau. Nadi: Pitta. People born under Uttara Bhadrapada exhibit traits corresponding to its ruling planet Saturn and animal symbol Gau. It is a Manushya gana nakshatra.",
+    "license": "original"
+  },
+  {
+    "index": 26,
+    "name": "Revati",
+    "lord": "Mercury",
+    "gana": "Deva",
+    "yoni": "Gaja",
+    "nadi": "Kapha",
+    "rashiIndex": 11,
+    "pada": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "startDeg": 346.667,
+    "endDeg": 360,
+    "text": "Revati is the 27th nakshatra (spanning 346.667° to 360.000° in the zodiac). Lord: Mercury. Gana: Deva. Yoni: Gaja. Nadi: Kapha. People born under Revati exhibit traits corresponding to its ruling planet Mercury and animal symbol Gaja. It is a Deva gana nakshatra.",
+    "license": "original"
+  }
+]

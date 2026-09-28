@@ -1,0 +1,16 @@
+[
+  {
+    "query": "How can I start a difficult conversation gently?",
+    "source": "communication/healthy-conversations.md"
+  },
+  {
+    "query": "How do I set a boundary without controlling my partner?",
+    "source": "boundaries/boundaries.md"
+  },
+  {
+    "query": "What should we discuss before an arranged marriage?",
+    "source": "india/marriage-family.md"
+  },
+  { "query": "How do I heal after a breakup?", "source": "healing/breakups.md" },
+  { "query": "Help us plan a thoughtful date", "source": "dating/date-planning.md" }
+]

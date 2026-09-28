@@ -1,0 +1,25 @@
+CREATE EXTENSION IF NOT EXISTS vector;
+CREATE TYPE message_role AS ENUM ('user', 'assistant', 'system');
+CREATE TYPE message_status AS ENUM ('pending', 'streaming', 'complete', 'failed');
+CREATE TYPE memory_type AS ENUM ('long_term', 'episodic', 'semantic', 'procedural');
+CREATE TYPE memory_status AS ENUM ('active', 'superseded', 'deleted');
+
+CREATE TABLE users (id text PRIMARY KEY, name text, email text UNIQUE, email_verified timestamptz, image text, memory_enabled boolean NOT NULL DEFAULT true, created_at timestamptz NOT NULL DEFAULT now(), updated_at timestamptz NOT NULL DEFAULT now());
+CREATE TABLE conversations (id uuid PRIMARY KEY DEFAULT gen_random_uuid(), user_id text NOT NULL, agent_id text NOT NULL DEFAULT 'guru', title text NOT NULL DEFAULT 'A new conversation', language text NOT NULL DEFAULT 'auto', created_at timestamptz NOT NULL DEFAULT now(), updated_at timestamptz NOT NULL DEFAULT now());
+CREATE INDEX conversations_user_updated_idx ON conversations(user_id, updated_at DESC);
+CREATE TABLE messages (id uuid PRIMARY KEY DEFAULT gen_random_uuid(), conversation_id uuid NOT NULL REFERENCES conversations(id) ON DELETE CASCADE, role message_role NOT NULL, content text NOT NULL, citations jsonb NOT NULL DEFAULT '[]', position integer NOT NULL, status message_status NOT NULL DEFAULT 'complete', request_id text, replaced_message_id uuid, created_at timestamptz NOT NULL DEFAULT now(), updated_at timestamptz NOT NULL DEFAULT now());
+CREATE UNIQUE INDEX messages_conversation_position_idx ON messages(conversation_id, position);
+CREATE UNIQUE INDEX messages_request_id_idx ON messages(request_id) WHERE request_id IS NOT NULL;
+CREATE TABLE conversation_summaries (id uuid PRIMARY KEY DEFAULT gen_random_uuid(), conversation_id uuid NOT NULL REFERENCES conversations(id) ON DELETE CASCADE, summary text NOT NULL, last_covered_position integer NOT NULL, model text NOT NULL, created_at timestamptz NOT NULL DEFAULT now(), updated_at timestamptz NOT NULL DEFAULT now());
+CREATE TABLE agent_events (id uuid PRIMARY KEY DEFAULT gen_random_uuid(), conversation_id uuid REFERENCES conversations(id) ON DELETE CASCADE, user_id text NOT NULL, request_id text, event_type text NOT NULL, model text, latency_ms integer, input_tokens integer, output_tokens integer, outcome text NOT NULL, metadata jsonb NOT NULL DEFAULT '{}', created_at timestamptz NOT NULL DEFAULT now());
+CREATE INDEX agent_events_conversation_created_idx ON agent_events(conversation_id, created_at DESC);
+CREATE TABLE kb_documents (id uuid PRIMARY KEY DEFAULT gen_random_uuid(), source text NOT NULL, title text NOT NULL, license text NOT NULL, url text, tags text[] NOT NULL DEFAULT '{}', language text NOT NULL DEFAULT 'en', checksum text NOT NULL UNIQUE, created_at timestamptz NOT NULL DEFAULT now(), updated_at timestamptz NOT NULL DEFAULT now());
+CREATE TABLE kb_chunks (id uuid PRIMARY KEY DEFAULT gen_random_uuid(), document_id uuid NOT NULL REFERENCES kb_documents(id) ON DELETE CASCADE, content text NOT NULL, embedding vector(1536) NOT NULL, metadata jsonb NOT NULL DEFAULT '{}', position integer NOT NULL, checksum text NOT NULL UNIQUE, tsv tsvector GENERATED ALWAYS AS (to_tsvector('simple', content)) STORED, created_at timestamptz NOT NULL DEFAULT now());
+CREATE INDEX kb_chunks_document_idx ON kb_chunks(document_id);
+CREATE INDEX kb_chunks_embedding_idx ON kb_chunks USING hnsw (embedding vector_cosine_ops);
+CREATE INDEX kb_chunks_tsv_idx ON kb_chunks USING gin (tsv);
+CREATE TABLE memories (id uuid PRIMARY KEY DEFAULT gen_random_uuid(), user_id text NOT NULL, type memory_type NOT NULL, encrypted_content text NOT NULL, embedding vector(1536) NOT NULL, importance real NOT NULL DEFAULT .5, confidence real NOT NULL DEFAULT .5, source_message_id uuid, last_used_at timestamptz, status memory_status NOT NULL DEFAULT 'active', created_at timestamptz NOT NULL DEFAULT now(), updated_at timestamptz NOT NULL DEFAULT now());
+CREATE INDEX memories_user_type_idx ON memories(user_id, type);
+CREATE INDEX memories_embedding_idx ON memories USING hnsw (embedding vector_cosine_ops);
+CREATE TABLE memory_facts (id uuid PRIMARY KEY DEFAULT gen_random_uuid(), user_id text NOT NULL, subject text NOT NULL, predicate text NOT NULL, encrypted_object text NOT NULL, confidence real NOT NULL DEFAULT .5, source_message_id uuid, created_at timestamptz NOT NULL DEFAULT now(), updated_at timestamptz NOT NULL DEFAULT now());
+CREATE TABLE procedural_memory (id uuid PRIMARY KEY DEFAULT gen_random_uuid(), user_id text NOT NULL, key text NOT NULL, encrypted_value text NOT NULL, importance real NOT NULL DEFAULT .5, created_at timestamptz NOT NULL DEFAULT now(), updated_at timestamptz NOT NULL DEFAULT now());

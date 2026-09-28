@@ -1,0 +1,65 @@
+{
+  "nadi_dosha": {
+    "description": "Nadi dosha occurs when both partners share the same Nadi (Vata/Pitta/Kapha).",
+    "convention": "Nakshatra-based nadi classification",
+    "three_nadis": {
+      "Vata": [
+        "Ashwini",
+        "Ardra",
+        "Punarvasu",
+        "Uttara Phalguni",
+        "Hasta",
+        "Jyeshtha",
+        "Mula",
+        "Shatabhisha",
+        "Purva Bhadrapada"
+      ],
+      "Pitta": [
+        "Bharani",
+        "Mrigashira",
+        "Pushya",
+        "Purva Phalguni",
+        "Chitra",
+        "Anuradha",
+        "Purva Ashadha",
+        "Dhanishta",
+        "Uttara Bhadrapada"
+      ],
+      "Kapha": [
+        "Krittika",
+        "Rohini",
+        "Ashlesha",
+        "Magha",
+        "Swati",
+        "Vishakha",
+        "Uttara Ashadha",
+        "Shravana",
+        "Revati"
+      ]
+    },
+    "cancellations": [
+      {
+        "condition": "Different rashis, same nadi"
+      },
+      {
+        "condition": "Different nakshatra within same nadi"
+      }
+    ],
+    "text": "Nadi dosha is the most significant dosha in Ashtakoot matching. Occurs on same Nadi. Cancellations exist."
+  },
+  "bhakoot_dosha": {
+    "description": "Bhakoot dosha arises from inauspicious rashi relationships: 6/8, 9/5, or 12/2.",
+    "convention": "Moon rashi-based counting",
+    "inauspicious_patterns": [
+      "6/8",
+      "9/5",
+      "12/2"
+    ],
+    "cancellations": [
+      {
+        "condition": "Lords of both rashis are friends"
+      }
+    ],
+    "text": "Bhakoot dosha arises when the Moon signs of the two partners form a 6/8, 9/5, or 12/2 relationship. Cancelled if lords are friends."
+  }
+}

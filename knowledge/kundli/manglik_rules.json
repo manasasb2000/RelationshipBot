@@ -1,0 +1,29 @@
+{
+  "description": "Manglik (Kuja) dosha occurs when Mars is in houses 1, 2, 4, 7, 8, or 12 from Lagna or Moon.",
+  "convention": "6-house rule from Moon (and Lagna when available). Lahiri ayanamsa.",
+  "houses": [
+    1,
+    2,
+    4,
+    7,
+    8,
+    12
+  ],
+  "cancellations": [
+    {
+      "condition": "Mars in own sign (Aries or Scorpio)",
+      "widely_accepted": true
+    },
+    {
+      "condition": "Mars in exaltation (Capricorn)",
+      "widely_accepted": true
+    },
+    {
+      "condition": "Both partners are Manglik",
+      "widely_accepted": true,
+      "note": "doshas cancel each other"
+    }
+  ],
+  "tone_note": "Manglik dosha should never be presented as fatalistic.",
+  "text": "Manglik dosha is studied when Mars occupies the 1st, 2nd, 4th, 7th, 8th, or 12th house. Cancellation conditions exist."
+}
